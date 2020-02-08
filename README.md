@@ -61,10 +61,10 @@ Although there are many ways of defining leaner engagement, I decided to operati
 
 ### Feature Selection
 There are four main kinds of features in Thought Industries' data that could affect Learner Engagement.
-  1.  _**Administrative Features**_ (examples: Price of Course, Length/Duration of Course)
-  2.  _**Learner Features**_ (examples: Average Quiz Grade, Time Spent on Course)
-  3.  _**Instructor Features**_ (examples: percent of non-graded quizzes, number of collaborations)
-  4.  _**Website Features**_ (examples: percent of interactive pages, percent of pages that include videos)
+  1.  **Administrative Features** (examples: Price of Course, Length/Duration of Course)
+  2.  **Learner Features** (examples: Average Quiz Grade, Time Spent on Course)
+  3.  **Instructor Features** (examples: percent of non-graded quizzes, number of collaborations)
+  4.  **Website Features** (examples: percent of interactive pages, percent of pages that include videos)
 
 All of these features were used in my model, but only the latter two (_Instructor_ and _Website_ Features) are present on the web app. Since the app is designed for course developers and instructors, the app focuses on features that they can _control themselves_.
 
