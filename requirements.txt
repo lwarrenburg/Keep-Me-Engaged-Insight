@@ -9,5 +9,3 @@ bokeh
 holoviews
 scipy
 sklearn
-pickle
-pickle5
