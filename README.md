@@ -114,14 +114,14 @@ _To ensure the confidentiality of this process and protect company information, 
 **Using Python, pandas, scikit-learn:**
   - Read in data frame exported from the Data Generation script
   - Continue visualizing variable distributions and correlations
-      _Delete or modify variables according to these results_
+      Delete or modify variables according to these results
   - Constrain scope of the problem 
-      _Focus on Engagement Scores from 1-99%)_
+      Focus on Engagement Scores from 1-99%)
   - Examine and transforming data according to missing values
-      - _Delete some observations (like observations with a missing Engagement Score)_
-      - _Replace some missing values with 0 (where a missing value means 0)_
-      - _Transform related columns with many missing values into a single column with binary values (it does or does not contain this feature)_
-      - _Impute with median where appropriate_
+      - Delete some observations (like observations with a missing Engagement Score)
+      - Replace some missing values with 0 (where a missing value means 0)
+      - Transform related columns with many missing values into a single column with binary values (it does or does not contain this feature)
+      - Impute with median where appropriate
   - Check for outliers & apply log(1+x)
 
 ### 3. Modeling
