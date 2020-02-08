@@ -1,0 +1,21 @@
+colname,rank,importance,controllable
+Length of Course (hours),2,0.16967437612826503,Administrative Features
+Number of Users,3,0.13019259003578357,Administrative Features
+Company Rating (average),7,0.09151982690828932,Administrative Features
+Content (percent),12,0.08449308102752878,Instructor Features
+Price (dollars),0,0.07158329284324197,Administrative Features
+Not-Graded Assessment (percent),11,0.0668126051717373,Instructor Features
+Certificates (percent),17,0.05539789974453354,Website Features
+Company Learners (percent),6,0.04561412983515129,Administrative Features
+Interactive (percent),14,0.04328730058427695,Instructor Features
+Graded Assessment (percent),10,0.04268968202307256,Instructor Features
+Company Administrators (percent),4,0.0411617300336901,Administrative Features
+Quiz Grade (average),8,0.03461064140472516,Learner Features
+Company Instructors (percent),5,0.03429080053623508,Administrative Features
+External (percent),13,0.024930153208934207,Instructor Features
+Completed Quizzes (percent),9,0.017403574671998805,Learner Features
+Teacher Comments (average),19,0.014718783439139396,Website Features
+Discount (dollars),1,0.012224745618080787,Administrative Features
+Collaborations (average),18,0.011771113837156792,Website Features
+Milestone Course (yes/no),16,0.005934099138120136,Website Features
+Uses SCORM (yes/no),15,0.001689573810039228,Website Features

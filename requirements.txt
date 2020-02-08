@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+sklearn
+plotnine
+matplotlib
+hvplot
+bokeh
+holoviews
+scipy
+sklearn
+pickle
