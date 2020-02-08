@@ -39,6 +39,11 @@ In this GitHub repository, you will find the following information:
   - y.csv (CSV of the dependent variable: Engagement Scores)
   - featureimportance.csv (CSV listing the relative variable importances for the model)
   - fifteen.csv (subset of X where each company has 15 or less courses -- makes app more intuitive)
+  - finalizedmodel.sav (pickle file of a Random Forest regression, used by Heroku to deploy the web app)
+ 
+- **Descriptions of the Insight Project**
+  - Presentation folder (includes slides for a 5-min demo of the project)
+  - Images folder (includes pictures of the web app for Keep-Me-Engaged and of the feature importances)
 
 ___
 ## Process
