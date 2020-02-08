@@ -346,7 +346,7 @@ feat7slider = st.slider(
 
 ##############################################################################
 
-# load in RF model 
+# load in RF model (note: this is a smaller model than the one in the Jupyter notebook)
 loadedmodel = pickle.load(open('finalizedmodel.sav', 'rb'))
 
 # read in data
