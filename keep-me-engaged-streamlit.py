@@ -292,9 +292,11 @@ Change engagement score by changing features of your online course!
 """)
 
 st.markdown("""
-_Use the sliders below to see how your engagement score will change if you change the following features of your course._ 
+_Use the sliders below to see how your engagement score will change if you change the following features of your course._
 
-_When you are finished using the slider bars, you can click the button below to see your **updated** engagement score:_
+_Please note that Content, Not-Graded Assessments, Interactive, Graded Assessments, and External are all different kinds of page types. Therefore, the total percent of these 5 types of page types must add up to 100 percent._ 
+
+**When you are finished using the slider bars, you can click the button below to see your _updated_ engagement score:**
 """)
 
 feat1slider = st.slider(
@@ -308,22 +310,26 @@ feat2slider = st.slider(
 	max_value=100)
 
 feat3slider = st.slider(
-	topfeatures[2],
-	min_value=0,
-	max_value=100)
-
-feat4slider = st.slider(
 	topfeatures[3],
 	min_value=0,
 	max_value=100)
 
-feat5slider = st.slider(
+feat4slider = st.slider(
 	topfeatures[4],
 	min_value=0,
 	max_value=100)
 
-feat6slider = st.slider(
+feat5slider = st.slider(
 	topfeatures[5],
+	min_value=0,
+	max_value=100)
+
+if feat1slider + feat2slider + feat3slider + feat4slider + feat5slider != 100:
+	st.markdown('<span style="color:#30a2da; font-size:14px">' + 'The total of _Content, Not-Graded Assessments, Interactive, Graded Assessments,_ and _External_ page types **must** equal 100% before the button will appear.' + '</span>', unsafe_allow_html=True)
+	st.markdown('<span style="color:#30a2da; font-size:14px">' + 'Your current total of these 5 page types is: **' + str(feat1slider + feat2slider + feat3slider + feat4slider + feat5slider) + '%**' + '</span>', unsafe_allow_html=True)
+
+feat6slider = st.slider(
+	topfeatures[2],
 	min_value=0,
 	max_value=100)
 
@@ -379,9 +385,11 @@ predengagement.columns = ["Updated Engagement Score:"]
 
 ##############################################################################
 
-if st.button('Calculate Updated Engagement Score'):
-	st.write("The **updated** engagement score for Course ID #**", str(course_selection), "** is:")
-	st.markdown('<span style="color:#30a2da; font-size:42px">' + str(predengagement.iloc[0,0]) + '</span>', unsafe_allow_html=True)
+
+if feat1slider + feat2slider + feat3slider + feat4slider + feat5slider == 100:
+	if st.button('Calculate Updated Engagement Score'):
+		st.write("The **updated** engagement score for Course ID #**", 	str(course_selection), "** is:")
+		st.markdown('<span style="color:#30a2da; font-size:42px">' + str(predengagement.iloc[0,0]) + '</span>', unsafe_allow_html=True)
 
 
 ##############################################################################
