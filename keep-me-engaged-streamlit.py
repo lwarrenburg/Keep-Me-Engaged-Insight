@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from scipy.stats import beta
 import numpy as np
-import pickle as pickle
+import pickle
 
 import matplotlib.pyplot as plt
 import holoviews as hv
