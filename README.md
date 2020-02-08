@@ -42,8 +42,8 @@ In this GitHub repository, you will find the following information:
   - finalizedmodel.sav (pickle file of a Random Forest regression, used by Heroku to deploy the web app)
  
 - **Descriptions of the Insight Project**
-  - Presentation folder (includes slides for a 5-min demo of the project)
-  - Images folder (includes pictures of the web app for Keep-Me-Engaged and of the feature importances)
+  - Presentations folder (slides for project overview, feature selection, images of the web app )
+  - Images folder (includes a sample pictue of the app interface and of the feature importances)
 
 ___
 ## Process
