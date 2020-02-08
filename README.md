@@ -76,7 +76,7 @@ Keep-Me-Engaged is an online tool for **e-Learning course developers** to find c
 
 #### Selecting a course and company
 - Select your **company name** from a drop-down list 
-  _Company names have been replaced with random words from the dictionary to ensure confidentiality_
+  - _Company names have been replaced with random words from the dictionary to ensure confidentiality_
 - Select a **Course ID #** from the list of courses offered by your company
 
 #### Compare Engagement Scores across the courses offered by your company
@@ -92,7 +92,7 @@ Keep-Me-Engaged is an online tool for **e-Learning course developers** to find c
 
 #### Use interactive slider bars to see how your Engagement Scores can change in the future
 - Seven sliders where the user can change the value of a feature (like "Percent of Non-Graded Assessments")
-- Button to calculate the _Updated Engagement Score_ to see how the changes made with the slider bars affect User Engagement.
+- Button to calculate the _Updated Engagement Score_ to see how the changes made with the slider bars affect User Engagement
 
 ![image](/images/sample_graph.png)
 
@@ -106,7 +106,7 @@ ___
   - Examine their distributions
   - Transform the variables appropriately
   - Merge them into a single data frame
-  - Export that dataframe to a CSV file. 
+  - Export that dataframe to a CSV file 
 
 _To ensure the confidentiality of this process and protect company information, this Jupyter notebook is not publicly available on my GitHub._
 
@@ -118,10 +118,10 @@ _To ensure the confidentiality of this process and protect company information, 
   - Constrain scope of the problem 
       _Focus on Engagement Scores from 1-99%)_
   - Examine and transforming data according to missing values
-      _Delete some observations (like observations with a missing Engagement Score)_
-      _Replace some missing values with 0 (where a missing value means 0)_
-      _Transform related columns with many missing values into a single column with binary values (it does or does not contain this feature)_
-      _impute with median where appropriate_
+      - _Delete some observations (like observations with a missing Engagement Score)_
+      - _Replace some missing values with 0 (where a missing value means 0)_
+      - _Transform related columns with many missing values into a single column with binary values (it does or does not contain this feature)_
+      - _impute with median where appropriate_
   - Check for outliers & apply log(1+x)
 
 ### 3. Modeling
