@@ -121,7 +121,7 @@ _To ensure the confidentiality of this process and protect company information, 
       - _Delete some observations (like observations with a missing Engagement Score)_
       - _Replace some missing values with 0 (where a missing value means 0)_
       - _Transform related columns with many missing values into a single column with binary values (it does or does not contain this feature)_
-      - _impute with median where appropriate_
+      - _Impute with median where appropriate_
   - Check for outliers & apply log(1+x)
 
 ### 3. Modeling
