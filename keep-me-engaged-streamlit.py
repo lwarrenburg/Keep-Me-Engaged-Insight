@@ -324,6 +324,8 @@ feat5slider = st.slider(
 	min_value=0,
 	max_value=100)
 
+# Making sure that the percent of page types add up to 100! (Logically, another number is impossible)
+
 if feat1slider + feat2slider + feat3slider + feat4slider + feat5slider != 100:
 	st.markdown('<span style="color:#30a2da; font-size:14px">' + 'The total of _Content, Not-Graded Assessments, Interactive, Graded Assessments,_ and _External_ page types **must** equal 100% before the button will appear.' + '</span>', unsafe_allow_html=True)
 	st.markdown('<span style="color:#30a2da; font-size:14px">' + 'Your current total of these 5 page types is: **' + str(feat1slider + feat2slider + feat3slider + feat4slider + feat5slider) + '%**' + '</span>', unsafe_allow_html=True)
